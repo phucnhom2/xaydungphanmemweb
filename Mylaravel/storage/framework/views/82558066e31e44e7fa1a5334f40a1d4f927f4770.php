@@ -46,9 +46,7 @@
                         <td></td>
                         <td></td>
 
-                        <td rowspan="2">
-                            <a class="pest_btn" href="#">Add To Cart</a>
-                        </td>
+
                     </tr>
                 </tbody>
             </table>
@@ -63,7 +61,7 @@
                         Cart Total
                     </div>
                     <div class="sub_total">
-                        <h5>Sub Total <span>$25.00</span></h5>
+                        <h5>Sub Total <span><?php echo e(number_format(Session('cart')->totalPrice)); ?></span></h5>
                     </div>
                     <div class="total">
                         <h4>Total <span>
@@ -73,7 +71,7 @@
 
                    </div>
                    <div class="cart_footer">
-                    <a class="pest_btn" href="#">Proceed to Checkout</a>
+                    <a class="pest_btn" href="<?php echo e(route('dathang')); ?>">Proceed to Checkout</a>
                 </div>
             </div>
         </div>

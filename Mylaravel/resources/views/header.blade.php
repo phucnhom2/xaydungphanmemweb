@@ -15,6 +15,8 @@
                 </ul>
                 <ul class="h_search list_style">
                     <li class="shop_cart"><a href="{{route('cart')}}"><i class="lnr lnr-cart"></i></a></li>
+                    <li class=""><a href="{{route('login')}}"><i class="lnr lnr-users"></i></a></li>
+                    <li class=""><a href="{{route('signin')}}"><i class="lnr lnr-user"></i></a></li>
                     <li><a class="popup-with-zoom-anim" href="#test-search"><i class="fa fa-search"></i></a></li>
                 </ul>
             </div>

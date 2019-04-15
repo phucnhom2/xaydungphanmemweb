@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class bill extends Model
 {
-    protected $table="bill";
+    protected $table="Bills";
     public function bill_detail()
     {
         return $this->hasMany('App\BillDetail','id_Bill','id');
